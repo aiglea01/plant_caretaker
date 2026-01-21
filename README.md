@@ -19,35 +19,35 @@ Display: 16x2 LCD Screen.
 
 Actuators:
 
-One Submersible Water Pump.
+- One Submersible Water Pump.
 
-Two Servomotors for a 2-Axis movement base.
+- Two Servomotors for a 2-Axis movement base.
 
 Power Supply: 9V Battery.
 
-System Functionality
-Environmental Monitoring: The Arduino reads analog signals from the capacitive sensor and the LDRs.
+## System Functionality
+- Environmental Monitoring: The Arduino reads analog signals from the capacitive sensor and the LDRs.
 
-Automated Irrigation: If the moisture level falls below a programmed threshold, the water pump is triggered to deliver a specific volume of water.
+- Automated Irrigation: If the moisture level falls below a programmed threshold, the water pump is triggered to deliver a specific volume of water.
 
-Solar Tracking: The two servomotors compare the difference between the LDR readings to rotate and tilt the base towards the strongest light source.
+- Solar Tracking: The two servomotors compare the difference between the LDR readings to rotate and tilt the base towards the strongest light source.
 
-Data Visualization: The LCD provides a real-time dashboard displaying current moisture percentages.
+- Data Visualization: The LCD provides a real-time dashboard displaying current moisture percentages.
 
-Portability: The circuit is optimized for 9V battery operation, allowing for placement in various indoor locations without cables.
+- Portability: The circuit is optimized for 9V battery operation, allowing for placement in various indoor locations without cables.
 
-Installation and Setup
-Hardware Assembly: Connect the components according to the wiring diagrams provided in the repository.
+## Installation and Setup
+- Hardware Assembly: Connect the components according to the wiring diagrams provided in the repository.
 
-Calibration: Use the calibration script to determine the dry and wet thresholds of your capacitive sensor.
+- Calibration: Use the calibration script to determine the dry and wet thresholds of your capacitive sensor.
 
-Software Upload: Open the main source code in the Arduino IDE and upload it to the board.
+- Software Upload: Open the main source code in the Arduino IDE and upload it to the board.
 
-Deployment: Place the plant on the motorized base and insert the sensors into the soil.
+- Deployment: Place the plant on the motorized base and insert the sensors into the soil.
 
-Future Improvements
-Implementation of a low-power mode to extend battery life.
+## Future Improvements
+- Implementation of a low-power mode to extend battery life.
 
-Integration of a water level sensor for the reservoir.
+- Integration of a water level sensor for the reservoir.
 
-WiFi connectivity for remote monitoring.
+- WiFi connectivity for remote monitoring.
