@@ -7,7 +7,7 @@
 // 2. DEFINICIONES DE PINES Y PARÁMETROS
 
 // Sensor de Suelo Capacitivo
-#define SOIL_PIN A3   // Pin Analógico A0
+#define SOIL_PIN A3
 
 // Parámetros de Calibración del Suelo (¡AJUSTA ESTOS VALORES!)
 // Estos valores definen el rango de 0% (seco) a 100% (mojado) para tu sensor.
